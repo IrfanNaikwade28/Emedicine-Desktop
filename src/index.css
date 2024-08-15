@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:ital,wght@0,300..900;1,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Figtree:ital,wght@0,300..900;1,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -22,14 +22,32 @@ body {
     -moz-transform: translateX(-100%);
     -ms-transform: translateX(-100%);
     -o-transform: translateX(-100%);
-}
+  }
   100% {
     transform: translateX(0);
   }
 }
-
 .slide-in {
   animation: slideIn 0.3s ease-in-out forwards;
   -webkit-animation: slideIn 0.3s ease-in-out forwards;
 }
 
+.icons {
+  background: url("./assets/icons.png");
+  background-repeat: no-repeat;
+}
+.icon1 {
+  background-position: 0 -189px;
+  width: 136px;
+  height: 41px;
+}
+.icon2 {
+  background-position: 0 -100px;
+  width: 136px;
+  height: 47px;
+}
+.payments {
+  background-position: 0 -260px;
+  width: 153px;
+  height: 47px;
+}

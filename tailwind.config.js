@@ -9,7 +9,8 @@ export default {
       fontSize:{
         "menu":"13px",
         "headerSM":"1.1vw",
-        "exs":"10px"
+        "exs":"10px",
+        "exss":"11px"
       },
       boxShadow:{
         "card":"0 0 7px 0 rgba(0, 0, 0, .14)",

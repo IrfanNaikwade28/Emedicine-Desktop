@@ -1,11 +1,11 @@
 import { ProductCard } from "./productCard";
-import prod1 from "../assets/blood_pressure_monitor.jpg";
+import prod1 from "../assets/Platinum_dilution.jpg";
 
-export const TrendingProducts = () => {
+export const HomeopathyProd = () => {
   return (
     <>
-      <div className="flex justify-between pe-3">
-        <span className="text-lg ps-10">Trending Products</span>
+      <div className="flex justify-between pe-3 mt-10">
+        <span className="text-lg ps-10">Homeopathy women's health</span>
         <button className="bg-red-500 text-white font-semibold text-xs rounded-sm px-2 py-1">
           SEE ALL
         </button>
@@ -14,7 +14,18 @@ export const TrendingProducts = () => {
         <ProductCard
           prodImg={prod1}
           title={
-            "Dr Morepen BP 15 Blood Pressure Monitor"
+            "ADEL Platinum Met. Dilution 200"
+          }
+          desc={"bottle of 10.0 ml Dilution"}
+          deliveryInfo={"Sat, 17 Aug"}
+          actualPrice={"240"}
+          discPrice={"180"}
+          discount={"25"}
+        />
+        <ProductCard
+          prodImg={prod1}
+          title={
+            "ADEL Platinum Met. Dilution 200"
           }
           desc={"box of 1.0 Unit"}
           deliveryInfo={"18 Aug"}
@@ -25,7 +36,7 @@ export const TrendingProducts = () => {
         <ProductCard
           prodImg={prod1}
           title={
-            "Dr Morepen BP 15 Blood Pressure Monitor"
+            "ADEL Platinum Met. Dilution 200"
           }
           desc={"box of 1.0 Unit"}
           deliveryInfo={"18 Aug"}
@@ -36,7 +47,7 @@ export const TrendingProducts = () => {
         <ProductCard
           prodImg={prod1}
           title={
-            "Dr Morepen BP 15 Blood Pressure Monitor"
+            "ADEL Platinum Met. Dilution 200"
           }
           desc={"box of 1.0 Unit"}
           deliveryInfo={"18 Aug"}
@@ -47,7 +58,7 @@ export const TrendingProducts = () => {
         <ProductCard
           prodImg={prod1}
           title={
-            "Dr Morepen BP 15 Blood Pressure Monitor"
+            "ADEL Platinum Met. Dilution 200"
           }
           desc={"box of 1.0 Unit"}
           deliveryInfo={"18 Aug"}
@@ -58,7 +69,7 @@ export const TrendingProducts = () => {
         <ProductCard
           prodImg={prod1}
           title={
-            "Dr Morepen BP 15 Blood Pressure Monitor"
+            "ADEL Platinum Met. Dilution 200"
           }
           desc={"box of 1.0 Unit"}
           deliveryInfo={"18 Aug"}
@@ -69,7 +80,7 @@ export const TrendingProducts = () => {
         <ProductCard
           prodImg={prod1}
           title={
-            "Dr Morepen BP 15 Blood Pressure Monitor"
+            "ADEL Platinum Met. Dilution 200"
           }
           desc={"box of 1.0 Unit"}
           deliveryInfo={"18 Aug"}
@@ -80,7 +91,7 @@ export const TrendingProducts = () => {
         <ProductCard
           prodImg={prod1}
           title={
-            "Dr Morepen BP 15 Blood Pressure Monitor"
+            "ADEL Platinum Met. Dilution 200"
           }
           desc={"box of 1.0 Unit"}
           deliveryInfo={"18 Aug"}
@@ -91,7 +102,7 @@ export const TrendingProducts = () => {
         <ProductCard
           prodImg={prod1}
           title={
-            "Dr Morepen BP 15 Blood Pressure Monitor"
+            "ADEL Platinum Met. Dilution 200"
           }
           desc={"box of 1.0 Unit"}
           deliveryInfo={"18 Aug"}
@@ -102,7 +113,7 @@ export const TrendingProducts = () => {
         <ProductCard
           prodImg={prod1}
           title={
-            "Dr Morepen BP 15 Blood Pressure Monitor"
+            "ADEL Platinum Met. Dilution 200"
           }
           desc={"box of 1.0 Unit"}
           deliveryInfo={"18 Aug"}
@@ -113,18 +124,7 @@ export const TrendingProducts = () => {
         <ProductCard
           prodImg={prod1}
           title={
-            "Dr Morepen BP 15 Blood Pressure Monitor"
-          }
-          desc={"box of 1.0 Unit"}
-          deliveryInfo={"18 Aug"}
-          actualPrice={"1570"}
-          discPrice={"1167"}
-          discount={"16"}
-        />
-        <ProductCard
-          prodImg={prod1}
-          title={
-            "Dr Morepen BP 15 Blood Pressure Monitor"
+            "ADEL Platinum Met. Dilution 200"
           }
           desc={"box of 1.0 Unit"}
           deliveryInfo={"18 Aug"}
