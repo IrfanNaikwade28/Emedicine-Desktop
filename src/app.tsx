@@ -1,24 +1,66 @@
+import { createBrowserRouter,RouterProvider,Outlet } from "react-router-dom"
 import {Header} from "./components/header.tsx"
-import { SearchBar } from "./components/searchBar.tsx"
-import { Navbar } from "./components/navbar.tsx"
-import {HeroSect} from "./components/heroSect.tsx"
-import { Banner } from "./components/banner.tsx"
-import { HealthConcerns } from "./components/HealthConcerns.tsx"
-import { HealthCheckOffer } from "./components/healthCheckOffer.tsx"
-import {FeatureBrand} from "./components/featureBrand.tsx"
-import { Products } from "./components/products.tsx"
+import { Medicine } from "./components/Medicine/medicine.tsx";
+
+const Layout = () => (
+  <div>
+      <Header/>
+      <Outlet />
+  </div>
+);
+
 export function App() {
+  const router = createBrowserRouter([
+    {
+      path: '/',
+    element: <Layout />,
+    children:[
+      {
+        path:"/",
+        element:<><Medicine/></>
+      },
+      {
+        path:"/LabTest",
+        element:<></>
+      },
+      {
+        path:"/Consult",
+        element:<></>
+      },
+      {
+        path:"/CancerCare",
+        element:<></>
+      },
+      {
+        path:"/Partnership",
+        element:<></>
+      },
+      {
+        path:"/Care",
+        element:<></>
+      },
+      {
+        path:"/login",
+        element:<></>
+      },
+      {
+        path:"/signup",
+        element:<></>
+      },
+      {
+        path:"/offers",
+        element:<></>
+      },
+      {
+        path:"/NeedHelp",
+        element:<></>
+      }
+    ]
+    }
+  ]);
   return (
     <>
-      <Header/>
-      <SearchBar/>
-      <Navbar/>
-      <HeroSect/>
-      <Banner/>
-      <HealthConcerns/>
-      <HealthCheckOffer/>
-      <FeatureBrand/>
-      <Products/>
+        <RouterProvider router={router}/>
     </>
   )
 }

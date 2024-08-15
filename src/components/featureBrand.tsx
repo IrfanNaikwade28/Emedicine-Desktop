@@ -10,7 +10,7 @@ export const FeatureBrand = () => {
     <>
       <div className="flex justify-between pe-3">
         <span className="text-lg ps-10">Featured brands</span>
-        <button className="bg-[#ff6f61] text-white font-semibold text-xs rounded-sm px-2 py-1">SEE ALL</button>
+        <button className="bg-red-500 text-white font-semibold text-xs rounded-sm px-2 py-1">SEE ALL</button>
       </div>
       <div className="grid grid-flow-col w-full h-56 bg-white shadow-card mt-5 mb-10 px-12 overflow-x-scroll hideScroll">
             <FeatureCard logo={logo1}/>
