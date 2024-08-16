@@ -6,7 +6,7 @@ export const SearchBar = () =>{
             <div className="w-3/5 flex gap-1 items-center">
                 <div className="flex w-1/4 bg-gray-200 items-center ps-3">
                     <img className="w-5 h-5" src={locationIcon} alt="" />
-                    <input type="text" className="bg-gray-200 text-sm w-full h-9 px-3 focus-visible:outline-none" placeholder="City" />
+                    <input type="text" className="bg-gray-200 text-sm w-full h-9 px-3 focus-visible:outline-none" placeholder="Enter Your City" />
                     <span></span>
                 </div>
                 <div className="flex justify-between items-center w-4/5 bg-gray-200 pe-3">

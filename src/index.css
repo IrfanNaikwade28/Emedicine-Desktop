@@ -15,6 +15,9 @@ body {
 .hideScroll::-webkit-scrollbar {
   display: none;
 }
+body::-webkit-scrollbar {
+  display: none;
+}
 @keyframes slideIn {
   0% {
     transform: translateX(-100%);
