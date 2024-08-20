@@ -1,6 +1,6 @@
 import { SearchBar } from "../searchBar.tsx"
 import { Navbar } from "../navbar.tsx"
-import {HeroSect} from "../heroSect.tsx"
+import { HeroSect } from "../heroSect.tsx"
 import { Banner } from "../banner.tsx"
 import { HealthConcerns } from "../HealthConcerns.tsx"
 import { HealthCheckOffer } from "../healthCheckOffer.tsx"
@@ -20,7 +20,7 @@ import { Footer } from "../footer.tsx"
 export const Medicine = () =>{
     return (
         <>
-            <SearchBar/>
+            <SearchBar offer="QUICK BUY! Get 15% off on medicines*"/>
             <Navbar/>
             <HeroSect/>
             <Banner/>

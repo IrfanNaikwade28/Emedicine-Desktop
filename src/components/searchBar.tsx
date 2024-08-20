@@ -1,6 +1,12 @@
+import { FunctionComponent } from "preact";
 import locationIcon from "../assets/location-pin-svgrepo-com.svg"
 import searchIcon from "../assets/search.svg"
-export const SearchBar = () =>{
+import lighteningIcon from "../assets/light.png"
+
+type SearchBarProps = {
+    offer:string;
+}
+export const SearchBar:FunctionComponent<SearchBarProps> = (props) =>{
     return(
         <div className="flex justify-around w-full h-[3rem] border-b border-opacity-10 border-solid border-black px-10">
             <div className="w-3/5 flex gap-1 items-center">
@@ -15,8 +21,9 @@ export const SearchBar = () =>{
                 </div>
             </div>
             <div className="flex gap-2 items-center">
-                <span className="text-sm text-gray-800">
-                    QUICK BUY! Get 15% off on medicines*
+                <span className="text-xs text-gray-800 flex gap-x-1">
+                    <img className="w-2 object-contain" src={lighteningIcon} alt="" />
+                    {props.offer}
                 </span>
                 <button className="bg-red-500 text-white w-40 h-8 rounded-sm">Quick Order</button>
             </div>

@@ -145,7 +145,8 @@ export const Footer = () => {
                 <img className="w-80 object-contain" src={secure} alt="" />
               </div>
               <div className="flex flex-col">
-                <div className="text-2xl font-bold">Reliable</div>
+                <div className="text-2xl font-bold">
+                Secure</div>
                 <div className="text-exss text-gray-600 text-wrap tracking-wide mt-3">
                   Tata 1mg uses Secure Sockets Layer (SSL) 128-bit encryption
                   and is Payment Card Industry Data Security Standard (PCI DSS)
@@ -158,7 +159,7 @@ export const Footer = () => {
                 <img className="w-80 object-contain" src={affordable} alt="" />
               </div>
               <div className="flex flex-col">
-                <div className="text-2xl font-bold">Reliable</div>
+                <div className="text-2xl font-bold">Affordable</div>
                 <div className="text-exss text-gray-600 text-wrap tracking-wide mt-3">
                   Find affordable medicine substitutes, save up to 50% on health
                   products, up to 80% off on lab tests and free doctor

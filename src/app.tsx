@@ -1,6 +1,7 @@
 import { createBrowserRouter,RouterProvider,Outlet } from "react-router-dom"
 import {Header} from "./components/header.tsx"
 import { Medicine } from "./components/Medicine/medicine.tsx";
+import { LabTests } from "./components/LabTests/labTests.tsx";
 
 const Layout = () => (
   <div>
@@ -21,7 +22,7 @@ export function App() {
       },
       {
         path:"/LabTest",
-        element:<></>
+        element:<><LabTests/></>
       },
       {
         path:"/Consult",
