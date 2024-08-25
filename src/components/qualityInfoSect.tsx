@@ -1,8 +1,7 @@
-import banner from "../assets/98503b87-dd2e-4d92-903b-c6ae4890bd5f_1721396402.png";
 export const QualityInfoSect = () => {
   return (
     <>
-      <div className="w-full flex mt-40 mb-20">
+      <div className="w-full flex mt-40 mb-20 bg-white">
         <div className="flex gap-x-20 justify-center items-center w-full">
           <div className="w-1/3">
             <div className="text-lg font-semibold w-4/5">

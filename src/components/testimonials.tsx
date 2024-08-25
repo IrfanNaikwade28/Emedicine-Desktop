@@ -15,7 +15,7 @@ export const Testimonials = () => {
 
   return (
     <>
-      <div className="flex w-full justify-center bg-gray-100 py-20">
+      <div className="flex w-full justify-center bg-gray-50 py-20">
         <div className="w-3/5">
           <div className="text-xl font-semibold text-center">
             Our Happy Customers
@@ -104,15 +104,6 @@ export const Testimonials = () => {
             </div>
           </div>
         </div>
-      </div>
-      <div className="w-full flex flex-col items-center gap-y-2 py-5 my-10">
-        <div className="font-bold text-lg tracking-wide">
-          Want to book lab tests in bulk?
-        </div>
-        <div className="font-medium text-gray-900 text-sm tracking-wider">
-          Get customized health packages at best prices
-        </div>
-        <button className="bg-red-500 font-bold text-white uppercase mt-2 px-3 py-2 rounded-sm">Contact Us</button>
       </div>
     </>
   );

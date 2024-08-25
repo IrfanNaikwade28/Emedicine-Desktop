@@ -10,7 +10,7 @@
   padding: 0;
 }
 body {
-  background-color: #f2f2f297;
+  background-color: #ffff;
 }
 .hideScroll::-webkit-scrollbar {
   display: none;

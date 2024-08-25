@@ -5,7 +5,7 @@ import valid from "../assets/icons/valid.svg";
 export const DoctorConsult = () => {
   return (
     <>
-      <div className="py-20 px-52 bg-white flex flex-col">
+      <div className="py-10 px-52 bg-white flex flex-col">
         <div className="flex">
           <div className="flex flex-col w-4/5">
             <div className="text-3xl font-bold">

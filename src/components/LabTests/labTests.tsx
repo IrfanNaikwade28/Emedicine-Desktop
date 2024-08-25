@@ -4,6 +4,7 @@ import { PopularLabTest } from "../popularLabTest.tsx"
 import { PopularHealthCheckup } from "../popularHealthCheckup.tsx"
 import { QualityInfoSect } from "../qualityInfoSect.tsx"
 import { Testimonials } from "../testimonials.tsx"
+import { BookLabTest } from "../bookLabTest.tsx"
 import { Footer } from "../footer.tsx"
 export const LabTests = () =>{
     return(
@@ -14,6 +15,7 @@ export const LabTests = () =>{
             <PopularHealthCheckup/>
             <QualityInfoSect/>
             <Testimonials/>
+            <BookLabTest/>
             <Footer/>
         </>
     )

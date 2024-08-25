@@ -17,7 +17,7 @@ export const Header = () => {
                     <Link to="/LabTest" className={`hover:text-red-500 font-bold ${getActiveClass("/LabTest")}`}>LAB TESTS</Link>
                     <span class=" flex items-center bg-red-500 text-[#ffff] text-exs h-4 p-1 rounded-sm">SAFE</span>
                 </div>
-                <Link to="/Consult" className={`hover:text-red-500 font-bold ${getActiveClass("/Consult")}`}>CONSULT DOCTORS</Link>
+                <Link to="/ConsultDoctors" className={`hover:text-red-500 font-bold ${getActiveClass("/ConsultDoctors")}`}>CONSULT DOCTORS</Link>
                 <Link to="/CancerCare" className={`hover:text-red-500 font-bold ${getActiveClass("/CancerCare")}`}>CANCER CARE</Link>
                 <div className="flex gap-1">
                     <Link to="/Partnership" className={`hover:text-red-500 font-bold ${getActiveClass("/Partnership")}`}>PARTNERSHIP</Link>

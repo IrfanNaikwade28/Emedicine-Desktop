@@ -4,7 +4,7 @@ export const PopularHealthCheckup = () => {
   const [healthOption, setHealthOption] = useState("opt1");
   return (
     <>
-      <div className="flex w-full justify-center mt-20">
+      <div className="flex w-full justify-center mt-20 bg-white">
         <div className="w-3/4 flex flex-col gap-y-5">
           <div className="text-xl font-semibold">Popular health checkups</div>
           <div className="health-options w-full flex justify-between">

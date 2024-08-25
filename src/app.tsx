@@ -26,7 +26,7 @@ export function App() {
         element:<><LabTests/></>
       },
       {
-        path:"/Consult",
+        path:"/ConsultDoctors",
         element:<><Consult/></>
       },
       {
