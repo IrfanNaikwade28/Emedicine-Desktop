@@ -6,7 +6,7 @@ export const PopularHealthCheckup = () => {
     <>
       <div className="flex w-full justify-center mt-20">
         <div className="w-3/4 flex flex-col gap-y-5">
-          <div className="text-xl font-bold">Popular health checkups</div>
+          <div className="text-xl font-semibold">Popular health checkups</div>
           <div className="health-options w-full flex justify-between">
             <div className="health-options-container flex gap-x-3">
               <div

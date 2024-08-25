@@ -2,6 +2,7 @@ import { createBrowserRouter,RouterProvider,Outlet } from "react-router-dom"
 import {Header} from "./components/header.tsx"
 import { Medicine } from "./components/Medicine/medicine.tsx";
 import { LabTests } from "./components/LabTests/labTests.tsx";
+import { Consult } from "./components/Consult/consult.tsx";
 
 const Layout = () => (
   <div>
@@ -26,7 +27,7 @@ export function App() {
       },
       {
         path:"/Consult",
-        element:<></>
+        element:<><Consult/></>
       },
       {
         path:"/CancerCare",

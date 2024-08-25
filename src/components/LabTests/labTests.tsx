@@ -3,6 +3,8 @@ import { LabTestHero } from "../labTestHero.tsx"
 import { PopularLabTest } from "../popularLabTest.tsx"
 import { PopularHealthCheckup } from "../popularHealthCheckup.tsx"
 import { QualityInfoSect } from "../qualityInfoSect.tsx"
+import { Testimonials } from "../testimonials.tsx"
+import { Footer } from "../footer.tsx"
 export const LabTests = () =>{
     return(
         <>
@@ -11,7 +13,8 @@ export const LabTests = () =>{
             <PopularLabTest/>
             <PopularHealthCheckup/>
             <QualityInfoSect/>
-
+            <Testimonials/>
+            <Footer/>
         </>
     )
 }
